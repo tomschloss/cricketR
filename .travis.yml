@@ -13,3 +13,4 @@ after_error:
   - ./travis-tool.sh dump_logs
 after_failure:
   - cat ~/r-source/config.log || true
+  
